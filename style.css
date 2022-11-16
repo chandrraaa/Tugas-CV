@@ -1,0 +1,110 @@
+.container {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    height: 740px;
+}
+.body {
+    font-family: "Quicksand", sans-serif;
+}
+.header {
+    background-color: #ffdfba;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, 1);
+}
+
+nav {
+    background-color: #baffc9;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, 1);
+}
+
+nav ul li {
+    list-style-type: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+ul.topnav {
+    padding: 0;
+    margin: 0;
+}
+ul.topnav1 {
+    padding: 0;
+    margin: 0;
+}
+ul.topnav li {
+    float: left;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    background-color: #ffffba;
+}
+
+nav ul li.active {
+    background-color: #ffb3ba;
+}
+
+.foto {
+    background-color: #bae1ff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, 3);
+    width: 30%;
+    min-height: 500px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 125px;
+}
+
+.konten {
+    background-color: #bae1ff;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, 3);
+    min-height: 510px;
+    float: right;
+    text-align: justify;
+    
+}
+
+.biodata {
+    background-color: #bae1ff;
+    min-height: 530px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, 3);
+}
+
+footer {
+    background-color: #ffdfba;
+    height: 100px;
+    text-align: center;
+    float: center;
+    border-radius: 10px;
+    box-shadow: 1px 4px 0px 2px rgba(0, 0, 0, 1);
+}
+h2 {
+    color: black;
+    text-shadow: red -2px 0, blue 2px 0;
+}
+.portofolio {
+    padding-left: 370px;
+}
